@@ -1,0 +1,38 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    min-height: 100%;
+    margin: auto;
+    font-size: 24px;
+}
+
+img {
+    width: 450px;
+
+}
+
+form {
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+    margin-top: 200px;
+}
+
+h1 {
+    text-align: center;
+    padding: 40px;
+    background-color: white;
+}
+
+#results {
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.space {
+    margin-bottom: 25px;
+}
