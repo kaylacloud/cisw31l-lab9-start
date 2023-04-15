@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="assets/styles.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-flat.css">
-    <title>Is it Your Birthday?</title>
+    <title>Is Today Your Birthday?</title>
 </head>
 
 <body class="w3-flat-clouds">
