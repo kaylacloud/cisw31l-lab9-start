@@ -8,8 +8,8 @@ Note: XAMPP default timezone is Europe. Change that in the php.ini file.
 
 Example of a match:
 
-![](assets/bday.png)
+![](assets/match.png)
 
 Example of a non-match:
 
-![](assets/not-bday.png)
+![](assets/no-match.png)
