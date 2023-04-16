@@ -1,6 +1,9 @@
 <?php
 // fill in the missing code indicated by #####
 
+// Create a variable for your name in the footer
+
+
 // set today's date in the Y-m-d format
 $today = #####
 
@@ -43,11 +46,11 @@ if ( ##### ) {
             <img src="<?= $img ?>">
             <p><?= $days_to_go ?></p>
         </div>
-        <!-- debug code -->
-        <!-- <pre>
-            <?php var_dump($_POST); ?>
-        </pre>  -->
-       
+
+    <footer>
+        <?php $date = date('n-j-y'); ?>
+        <?= ##### ?> | CISW 31 | <?= $date ?>
+    </footer>  
 
     </body>
 
