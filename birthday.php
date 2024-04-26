@@ -20,7 +20,7 @@ if ( ##### ) {
     $img = "/path/to/image";
 } else {
     $message = "<h1>Today is not your birthday.</h1>";
-    $img = "/path/to/image";
+    $img = "/path/to/image"; // use your own image, not the screenshot from the assignment
 
     // calculate the $days_to_go until the birthday
     $origin = date_create($today);
@@ -44,7 +44,11 @@ if ( ##### ) {
         <div id="results">
             <?= $message ?>
             <img src="<?= $img ?>">
-            <p><?= $days_to_go ?></p>
+            <p><?php 
+                // This will only display if $days_to_go has been set above
+                if (isset($days_to_go) && !empty($days_to_go)) {
+                    $days_to_go;
+                } ?></p>
         </div>
 
     <footer>
