@@ -18,6 +18,7 @@ $birthday = date("Y-m-d", $bday);
 if ( ##### ) {
     $message = "<h1>Happy Birthday!</h1>";
     $img = "/path/to/image";
+    $days_to_go = 0;
 } else {
     $message = "<h1>Today is not your birthday.</h1>";
     $img = "/path/to/image"; // use your own image, not the screenshot from the assignment
@@ -44,11 +45,10 @@ if ( ##### ) {
         <div id="results">
             <?= $message ?>
             <img src="<?= $img ?>">
-            <p><?php 
-                // This will only display if $days_to_go has been set above
-                if (isset($days_to_go) && !empty($days_to_go)) {
-                    $days_to_go;
-                } ?></p>
+            <?php if ($days_to_go > 0) { ?>
+                <!-- Only display if $days_to_go > 0 -->
+                <p><?= $days_to_go ?></p>
+            <?php } ?>
         </div>
 
     <footer>
