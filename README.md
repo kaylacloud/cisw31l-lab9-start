@@ -15,3 +15,5 @@ Example of a match:
 Example of a non-match:
 
 ![](assets/no-match.png)
+
+This page was updated on the web.
